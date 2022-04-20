@@ -10,7 +10,7 @@ import { LogoAPComponent } from './components/logo-ap/logo-ap.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    LogoAPComponent
+    LogoAPComponent,
   ],
   imports: [
     BrowserModule,

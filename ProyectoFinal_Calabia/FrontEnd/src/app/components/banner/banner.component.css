@@ -1,4 +1,6 @@
-img{
-    width: 500px;
-    height: 150px;
+div{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:8vw;
+    text-align: center;
+    color:white;
 }

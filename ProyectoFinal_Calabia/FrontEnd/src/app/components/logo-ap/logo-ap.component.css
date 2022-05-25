@@ -6,9 +6,10 @@
 .redes{
     display: flex;
     align-items: stretch;
+    padding: 40px;
 }
 #logoAP{
-    width: 150px;
+    width: 200px;
 }
 img{
     width: 50px;

@@ -15,7 +15,9 @@ import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
-import { LoginComponent } from './components/login/login.component';
+import { LoginComponent } from "./components/login/LoginComponent";
+import { IniciarSesionComponent } from './components/iniciar-sesion/iniciar-sesion.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,12 +33,14 @@ import { LoginComponent } from './components/login/login.component';
     FooterComponent,
     HomeComponent,
     LoginComponent,
+    IniciarSesionComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({}),
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule,
 
   ],
   providers: [],
